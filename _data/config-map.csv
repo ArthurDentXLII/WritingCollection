@@ -1,5 +1,6 @@
 field,display_name,search
-date,Date,true
+creation_date,Date,true
 creator,Creator,true
-subject,Subjects,true
-location,Location,true
+subject_local,Subjects,true
+course,Course,true
+institution,Institution,true
