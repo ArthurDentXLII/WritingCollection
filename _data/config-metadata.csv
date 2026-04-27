@@ -1,13 +1,15 @@
 field,display_name,browse_link,external_link
-filename,File Name
-title,Title,
-creator,Creator,
-version,Version
-creation_date,Date Created,
-course,Course
-institution,Insitution
-summary,Summary,
-file_size, File Size
-type,Type,
-format,Format,
-rights,Rights,
+filename,File Name,,
+title,Title,,
+creator,Creator,,
+version,Version,,
+creation_date,Date Created,,
+course,Course,true,
+institution,Institution,true,
+description,Description,,
+summary,Summary,,
+subject_local,Subjects,true,
+file_size,File Size,,
+type,Type,true,
+format,Format,true,
+rights,Rights,,
