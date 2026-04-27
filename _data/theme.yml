@@ -48,19 +48,20 @@ map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact m
 map-cluster: true # true/false, suggested for large collection or with many items in same location
 map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 
-##########
+########### 
 # TIMELINE PAGE
 #
 timeline-field: creation_date
 year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav, leave blank to auto gen
-year-nav-increment: 5 # set increments when auto gen nav years
+year-nav-increment: 4 # set increments when auto gen nav years
 
 ##########
 # DATA 
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,creation_date,summary,type,format,rights,filename,version,course,institution" # generate a facets list for given fields, comma delimited
+metadata-export-fields: "title,creator,creation_date,summary,type,format,rights,filename,version,course,institution"
+# generate a facets list for given fields, comma delimited
 metadata-facets-fields: "title,creator,format"
 
 ##########
