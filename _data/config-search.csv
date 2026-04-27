@@ -1,5 +1,9 @@
 field,index,display
 title,true,true
-date,true,true
+creation_date,true,true
 creator,true,false
+description,true,true
 summary,true,true
+course,true,true
+institution,true,true
+subject_local,true,true
