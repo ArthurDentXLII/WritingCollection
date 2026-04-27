@@ -1,4 +1,7 @@
 field,display_name
 title,Title
-date,Date
-summary,Summary
+creation_date,Date
+description,Description
+course,Course
+institution,Institution
+subject_local,Subjects
